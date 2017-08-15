@@ -1,8 +1,8 @@
 # Dicas para teste de mesa recursivo
 
-	* 1° - Executar o código no PythonTutor <http://www.pythontutor.com/> 
-	* 2° - Prestar bem a atenção nos momentos em que a função é iniciada, e quando é finalizada.
-	* 3° - Atenção aos retornos.
+	1° - Executar o código no PythonTutor <http://www.pythontutor.com/> 
+	2° - Prestar bem a atenção nos momentos em que a função é iniciada, e quando é finalizada.
+	3° - Atenção aos retornos.
 
 
 # Atenção

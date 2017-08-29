@@ -8,7 +8,4 @@
 # Puxando informações do site
 https://www.bayerpet.com.br/caes/lista-nomes
 
-# Ao coletar as informações foi possível perceber que cada vez mais a complexidade das estruturas vai aumentando
-# e isso faz com que as raspagens fiquem cada vez mais lentas
-
-#Durante esta aula foi feito ainda uma raspagem de dados em um site em que a estrutura era bagunçada. 
+ * Ao coletar as informações foi possível perceber que cada vez mais a complexidade das estruturas vai aumentando e isso faz com que as raspagens fiquem cada vez mais lentas

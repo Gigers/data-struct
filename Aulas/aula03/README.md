@@ -2,10 +2,10 @@ Aula do dia - 23/08/2017
 
 * Regras de formação dos dados
 
-* Utilizado o raspa36, raspa37, raspa38 para raspar os dados
+* Utilizado o raspa36, raspa37, raspa38 para raspar os dados (Repositório do fmasanori)
 
 
-* Foi utilizados os seguintes links:
+* Foram utilizados os seguintes links:
   * https://pypi.python.org/pypi/pdfminer3k/
 
 * Dados publicos sendo utilizados para o bem
@@ -15,17 +15,3 @@ Aula do dia - 23/08/2017
   * http://projetoplenario.com
   * http://www.brasil317.com.br/ 
   * http://dapp.fgv.br/transparencia-orcamentaria/mosaico/
-
-
-#EP1
-
-Raspar dados públicos
-
-Sendo esses dados públicos, de portais do governo e de redes sociais 
-
-Especificar o que pretende - Objetivo
-
-Raspar pelo menos 100 itens
-
-Entrega: 10/08/2017 
-

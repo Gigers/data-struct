@@ -20,7 +20,7 @@ Existem duas formas de implementar a lista encadeada:
 # Códigos
 Os códigos listados com números de exercícios, como por exemplo <code>Exe_18.c</code> fazem referência aos exercícios presentes no PDF que pode ser encontrado em reference.
 
-#Questões
+# Questões
  * Porque os números são invertidos (No código lst_no_head.c) ?
     * R: Pois sempre vou inserir os elementos no início (Move os elementos para a direita)
 

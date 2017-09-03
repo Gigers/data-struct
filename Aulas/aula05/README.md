@@ -22,7 +22,7 @@ Os códigos listados com números de exercícios, como por exemplo <code>Exe_18.
 
 # Abstração
 
-![LISTA_ENCADEADA_SIMPLES](https://drive.google.com/open?id=0BwQVdunN4yJBeDZIbU1CaDR5djg)
+https://drive.google.com/open?id=0BwQVdunN4yJBeDZIbU1CaDR5djg
 
 # Questões
  * Porque os números são invertidos (No código lst_no_head.c) ?

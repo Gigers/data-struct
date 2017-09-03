@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Aula - 30/08/2017
 
 * Listas encadeadas
@@ -23,9 +22,9 @@ Os códigos listados com números de exercícios, como por exemplo <code>Exe_18.
 
 # Abstração
 
-![LISTA_ENCADEADA_SIMPLES](https://trello-attachments.s3.amazonaws.com/5987906569263a17c7396331/598795a073e2a8ff7ccb9786/fe3632abb473f5a0882ed844474de7c7/blob)
+![LISTA_ENCADEADA_SIMPLES](https://drive.google.com/open?id=0BwQVdunN4yJBeDZIbU1CaDR5djg)
 
-#Questões
+# Questões
  * Porque os números são invertidos (No código lst_no_head.c) ?
     * R: Pois sempre vou inserir os elementos no início (Move os elementos para a direita)
 
@@ -61,4 +60,3 @@ Os códigos listados com números de exercícios, como por exemplo <code>Exe_18.
 
 * Porque insiro no início da lista ?
     * R: Para não percorrer toda a lista.
->>>>>>> 444e8bb9eac14d20f511feb96837aafc107e11e7

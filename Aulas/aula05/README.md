@@ -19,7 +19,7 @@
 
 # Códigos
 
-Os códigos listados com números de exercícios, como por exemplo <code>Exe_18.c</code> fazem referência aos exercícios presentes no PDF que pode ser encontrado em reference.
+Os códigos listados com números de exercícios, como por exemplo <code>Exe_18.c</code> fazem referência aos exercícios presentes no PDF que pode ser encontrado em <code>reference</code>.
 
 # Questões
  * Porque os números são invertidos (No código <code>lst_no_head.c</code>) ?

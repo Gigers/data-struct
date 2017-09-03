@@ -1,12 +1,7 @@
 /* 
 
-    VETOR PARA LISTA. Escreva uma função que copie um vetor para uma lista encadeada.
-    Utilizando ponteiro de ponteiro
-
-    Sem utilizar ponteiro de ponteiro, aqui além de criar um ponteiro, crio também uma estrutura
-    a qual o ponteiro irá apontar.
-
-    Veja que a principal diferença está na forma com que eu criei a estrutura.
+    Função de busca que retorna o ponteiro para a lista
+    em que o elemento procurado está
 
 */
 
@@ -48,11 +43,43 @@ void imprime(CELULA *lista){
 
 }
 
+CELULA * // Função irá retornar um ponteiro do tipo celula
+busca(int procurado, CELULA *lista){ 
+
+    CELULA *p;
+    p = lista;
+
+    while(p != NULL && p -> conteudo != procurado)
+        p = p -> proximo;
+
+    return p;
+
+}
+
+//Remove o primeiro elemento das listas encadeadas
+void Remove(CELULA *p){
+
+    CELULA *lixo;
+    
+    lixo = p -> proximo;
+    p -> proximo = lixo -> proximo;
+
+    free(lixo);
+
+}
+
+void buscaEremove(int procurado, CELULA *lista){
+
+    //Adicionar a função busca e remove
+
+}
+
 void main(void){
 
     CELULA cabeca;
     CELULA *lista;
-    
+    CELULA *p;
+
     lista = &cabeca;
     cabeca.proximo = NULL;
     
@@ -64,6 +91,12 @@ void main(void){
 
     }
     
+    printf("Antes de remover\n");
     imprime(lista);
 
+    Remove(lista);
+
+    printf("\n#\nDepois de remover\n");
+    imprime(lista);
+    
 }

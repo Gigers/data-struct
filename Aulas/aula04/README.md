@@ -19,5 +19,5 @@ OBS: Ao analisar um algoritimo, coloque primeiro o pior caso.
  * Pagina 36
  * Pagina 42...50
 
- #Lista de exercícios
+ * Lista de exercícios
  https://www.dropbox.com/s/p8uxqts729y8m4w/Lista%20de%20Exerc%C3%ADcios%20Listas%20Encadeadas%20ED%202011-01.pdf?dl=0

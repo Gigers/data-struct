@@ -5,30 +5,49 @@ VETOR PARA LISTA. Escreva uma função que copie um vetor para uma lista encadea
 #include <stdio.h>
 #include <stdlib.h>
 
-//Definindo a estrutura da lista 
-typedef struct celula {
+typedef struct lista{
 
     int conteudo;
-    struct celula *ponteiro; // Ponteiro para o próximo
+    struct lista *prox;
+
+}*LISTA;
+
+void inserir(LISTA *elemento, int conteudo){
+
+    LISTA novo = (LISTA) malloc(sizeof(LISTA));
+
+    novo -> conteudo = conteudo;
+
+    novo -> prox = *elemento;
+
+    *elemento = novo;
 
 }
 
-void insere(int valor, celula *p){
+void imprime(LISTA temp){
 
-    celula *nova;
-    nova = malloc(sizeof(celula));
+    while(temp != NULL){
 
-    // *(nova).conteudo = y;
-    nova -> conteudo = valor; //nova.conteudo = valor
-    nova -> ponteiro = p -> ponteiro; //nova.ponteiro = p.ponteiro (cabeça)
-    p -> ponteiro = nova; //p.ponteiro = nova
+        printf("%d\n", temp -> conteudo);
+
+        temp = temp -> prox;
+    }
 
 }
 
-int main(void){
+void main(int argc, char *argv[]){
 
-    //nova -> ponteiro
-    //nova.ponteiro = p.ponteiro;
+    LISTA list = NULL;
+    int vetor[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    
+    int maximo = (int) sizeof(vetor) / sizeof(int);
 
+    for(int i = 0; i < maximo; i++){
+
+        inserir(&list, vetor[i]);
+
+    }
+
+    imprime(list);
 
 }

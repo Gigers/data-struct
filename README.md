@@ -12,9 +12,10 @@ Como visto, as estruturas de dados trabalham para organizar, tratar e armazenar 
   * Complexos ou compostos:
     * E por sua vez os dados complexos, são os dados que podem ser decompostos. Caso um tipo de dado possa ser decomposto, ele é chamado de estruturado.
     
+# Aulas
 
-# Grupos de dados
+As aulas aqui colocadas são referentes as aulas anotações que faço, durante as aulas do Fernando Masanori, na Fatec SJC.
 
-## Dados homogêneos
+# Matérial
 
-As estruturas de dados homogêneas utilizam apenas um tipo de dado, correspondendo por uma posição de memória, identificadas pelo mesmo nome.
+Todo o matérial é fruto das pesquisas que faço, então caso encontre problemas ajuda-me a ir corrigindo.

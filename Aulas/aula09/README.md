@@ -42,15 +42,18 @@ Há duas formas de fazer esse processo:
     * Algoritimos ruins acabam trabalhando com N ^ 2, onde N é o tamanho do vetor, assim a busca passa duas vezes, pelo mesmo elemento.
     * 1° Exemplo de um algoritimo ruim de ordenação (Inserção):
         <code> 
+   
                  1° Passo: 0, 3, 6, 1, 5, 4, 2, 7
                  2° Passo: 0, 1, 3, 6
                  3° Passo: 0, 1, 3, 5, 6
                  4° Passo: 0, 1, 3, 4, 5, 6
                  5° Passo: 0, 1, 3, 4, 5, 6, 7
+                 
         </code>
         * Algoritimo ruim pois tem de passar por todos os elementos várias vezes para funcionar
     * Abaixo mais um exemplo:
         <code>
+   
                 1° Passo: 6, 3, 4, 5, 1, 0, 7, 2
                 2° Passo: 3, 6
                 3° Passo: 3, 4, 5
@@ -62,6 +65,7 @@ Há duas formas de fazer esse processo:
         </code>
     * 2° Exemplo de algoritimo ruim de ordenação (Método de seleção):
         <code>
+   
                 1° Passo: 6, 3, 4, 5, 1, 0, 7, 2
                 2° Passo: 0, 3, 4, 5, 1, 6, 7, 2
                 3° Passo: 0, 1, 4, 5, 3, 6, 7, 2
@@ -70,6 +74,7 @@ Há duas formas de fazer esse processo:
                 6° Passo: 0, 1, 2, 3, 4, 6, 7, 5
                 7° Passo: 0, 1, 2, 3, 4, 5, 7, 6
                 8° Passo: 0, 1, 2, 3, 4, 5, 6, 7
+                
         </code>
     * Comparar os dois algoritimos. Quem é o pior ?
         * R: O de seleção, isso porque ele não leva em consideração o lado esquedo (Já ordenado), apenas o lado direito, e o algoritmo de inserção, considera o lado esquerdo.

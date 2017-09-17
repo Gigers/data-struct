@@ -12,4 +12,4 @@ Para seguir esta revisão utilize a seguinte ordem
 * 4° - Listas encadeadas (Sem cabeça);
 * 5° - A solução com as listas em Python;
 * 6° - Filas;
-* 7° - Pilhas
+* 7° - Pilhas.

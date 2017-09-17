@@ -40,5 +40,4 @@ int main(void){
     for (i = 0; i < 10; i++)
         Insere2(i, &lst);
     Imprima2(lst);
-    system("pause");
 }

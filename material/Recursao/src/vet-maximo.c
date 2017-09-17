@@ -1,4 +1,4 @@
-//Determine o valor de um elemento máimo de um vetor v[0...n - 1].
+//Determine o valor de um elemento máximo de um vetor v[0...n - 1].
 //
 //Perceba que este exercício só faz sentido se o vetor não for vazio, ou seja n > v[]
 //

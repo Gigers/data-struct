@@ -5,20 +5,21 @@
         * Velocidade (Remoção e inserção);
 
 # Formas
-Existem duas formas de implementar a lista encadeada:
-    * Com cabeça;
+* Existem duas formas de implementar a lista encadeada:
+     * Com cabeça;
         * Vantagem:
-            * Não vou testar lista vazia (Isso porque a lista sempre tem um elemento (cabeça));
-            * Não preciso de ponteiro para ponteiro;
-            * Menos complexo;
-            * Mais eficiente (Se comparado a lista sem cabeça).
+         * Não vou testar lista vazia (Isso porque a lista sempre tem um elemento (cabeça));
+         * Não preciso de ponteiro para ponteiro;
+         * Menos complexo;
+         * Mais eficiente (Se comparado a lista sem cabeça).
     * Sem cabeça;
-        *Desvantagens:
-            * Complexo;
-            * Menos eficiênte (Se comparado a lista com cabeça).
+        * Desvantagens:
+         * Complexo;
+         * Menos eficiênte (Se comparado a lista com cabeça).
 
 # Códigos
-Os códigos listados com números de exercícios, como por exemplo <code>Exe_18.c</code> fazem referência aos exercícios presentes no PDF que pode ser encontrado em reference.
+
+Os códigos listados com números de exercícios, como por exemplo <code>Exe_18.c</code> fazem referência aos exercícios presentes no PDF que pode ser encontrado em <code>reference</code>.
 
 # Abstração
 

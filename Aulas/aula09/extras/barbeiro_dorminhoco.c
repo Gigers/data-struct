@@ -13,6 +13,8 @@
             Caso não haja bancos disponíveis ele vai embora
 */
 
+// Misra - Padrão
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -23,6 +25,14 @@ int fila[CADEIRAS];
 
 int p = 0;
 int u = 0;
+int barbero = 0;
+
+int UP();
+void DOWN();
+void processo();
+void executa_processo();
+void barbeiro();
+void cliente();
 
 //Simula Execução do processo
 void
@@ -41,21 +51,45 @@ executa_processo(){
 
 }
 
+// Instrução UP
+int
+UP(){
+   
+    if(barbero == 0){
+
+        barbero = 1;
+
+    }
+
+}
+
+// Instrução DOWN
+void
+DOWN(){
+
+    barbero = 0;
+
+}
+
 //Mutex
 void
 barbeiro(){
 
-    if(p == u){
-        printf("Barbeiro dorme\n\n");
-    } else {
-        printf("Barbeiro trabalha\n");
-        executa_processo();
 
-        printf("Cliente atendido com sucesso!\n");
-        barbeiro();
+    if(UP() == 1){
+
+        printf("Barbeiro trabalha!\n");
+        executa_processo();
+        DOWN();
+
+    } else {
+
+        printf("Cliente espera\n");
+        cliente();
     }
 }
 
+// Processo
 void
 cliente(){
 
@@ -66,7 +100,7 @@ cliente(){
         // chega_cliente(y);
         barbeiro();
     } else {
-        printf("Ele terá de ficar na fila de espera\n");
+        // printf("Ele terá de ficar na fila de espera\n");
         barbeiro();
     }
 
@@ -77,15 +111,15 @@ chega_cliente(int y){
     
     fila[u++] = y;
 
-    cliente();
-
 }
 
 void
 main(void){
 
+    chega_cliente(321);    
+    cliente();
+    
     for(int i = 0; i < CADEIRAS; i++){
         chega_cliente(i);
     }
-
 }

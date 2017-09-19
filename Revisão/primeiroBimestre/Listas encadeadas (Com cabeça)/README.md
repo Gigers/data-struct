@@ -11,7 +11,7 @@ Uma das estruturas que foram implementadas para a solução dos problemas são a
     * Desta forma não é mais necessário adicionar uma quantidade X de elementos sem saber se eles realmente serão utilizados, isso porque a alocação é feita de acordo com a necessidade;
 
 * Desempenho:
-    * O desempenho para a adição e remoção em listas encadeadas é muito melhor que em Arrays, isso porque não é necessário percorrer todo a lista para a adição e nem para a remoção.
+    * O desempenho para a adição e remoção em listas encadeadas é muito melhor que em Arrays, isso porque não é necessário percorrer toda a lista para a adição e nem para a remoção.
     * A adição sempre é feita no início para evitar de percorrer toda a lista.
 
 # Lista
@@ -21,7 +21,7 @@ Até aqui vimos vantagens e desvantagens, porém não foi feita a definição do
 Exemplo:
 O vetor é uma lista, pois aloca os valores sequêncialmente um atrás do outro, físicamente.
 
-Mas não necessáriamente uma lista precisa estar um ao lado do outro, pode existir por exemplo listas que tenham elementos em lugares distintos, porém vinculados por algum rótulo ou endereço, e essas são as listas encadeadas.
+Mas não necessáriamente uma lista precisa estar um ao lado do outro, pode existir por exemplo, listas que tenham elementos em lugares distintos, porém vinculados por algum rótulo ou endereço, e essas são as listas encadeadas.
 
 Elementos que estão gerando uma sequência utilizando rótulos que dizem ao elemento atual qual será o próximo elemento
 
@@ -37,7 +37,7 @@ As operações básicas nas listas encadeadas são:
 
 * Adição;
 * Remoção;
-* Exibe.
+* Exibição.
 
 # Códigos
 

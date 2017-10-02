@@ -1,42 +1,71 @@
-// Código para demonstrar como é feita a adição de elementos em uma lista encadeada simples
+/*
+    Compilado com: GCC 5.4
 
-// A operação de adição, cria uma célula dentro da lista
-// Para realizar esta operação, é necessário já ter a estrutura da lista criada, então vamos a ela
-
-// Definindo a estrutura da célula
+    Implementação de lista encadeada utilizando cabeça.
+    Este código irá demonstrar a utilização da função de inserção de células na lista
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct lista{
-
-    int conteudo; //Representa o conteúdo da célula
-    struct lista *proximo; //Representa o campo para o próximo item da lista
-
+// Criando a estrutura de uma célula
+typedef struct cell{
+    int conteudo;
+    struct cell * proximo;
 } CELULA;
 
+// Função inserir novas células na lista
+// Recebe a cabeça (Elemento de referência) e o conteúdo da nova célula
 void
-insere(CELULA *lista, int conteudo){
-
-    CELULA *nova;
-    nova = malloc(sizeof(CELULA));
-
+insereContent(CELULA * cabeca, int conteudo){
+    // Cria um ponteiro do tipo CELULA que aponta para um espaço de memória alocado
+    CELULA * nova = malloc(sizeof(CELULA));
+    
     nova -> conteudo = conteudo;
-    nova -> proximo = lista -> proximo;
+    nova -> proximo = cabeca -> proximo;
+    cabeca -> proximo = nova;
+}
 
-    lista -> proximo = nova;
+// Função que insere celulas a lista sem conteúdo
+void
+insereNoContent(CELULA * cabeca){
+    
+    CELULA * nova = malloc(sizeof(CELULA));
+    
+    nova -> proximo = cabeca -> proximo;
+    cabeca -> proximo = nova;
+}
 
+// Função para visualizar se as células foram vinculadas a lista
+void
+exibe(CELULA * cabeca){
+
+    CELULA * p = cabeca -> proximo;
+
+    while(p != NULL){
+        printf(" %d ", p -> conteudo);
+        
+        // O p se torna o próximo elemento da lista
+        p = p -> proximo;
+    }
+    printf("\n");
 }
 
 void
 main(void){
+    // Cria a cabeça (Não recebe conteúdo válido)
+    CELULA * cabeca = malloc(sizeof(CELULA));
 
-    // Como é uma lista com cabeça, primeiro será criado a cabeça
-    CELULA *cabeca;
-    cabeca = malloc(sizeof(CELULA));
-
+    // Sempre quando a cabeça começa, ela aponta para NULL
     cabeca -> proximo = NULL;
     
-    insere(cabeca, 123);
+    // Inserindo células com elementos dentro da lista
+    for(int i = 1; i < 10; i ++)
+        insereContent(cabeca, i * 10);
+    exibe(cabeca);
 
+    // Inserindo células sem elementos a lista
+    for(int i = 1; i < 3; i++)
+        insereNoContent(cabeca);
+    exibe(cabeca);
 }

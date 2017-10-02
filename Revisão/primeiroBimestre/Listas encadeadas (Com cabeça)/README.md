@@ -4,7 +4,7 @@ Como visto anteriormente, os arrays em C apresentam alguns problemas. E para res
 
 Uma das estruturas que foram implementadas para a solução dos problemas são as listas encadeadas, que resolvem dois grandes problemas, além de vários outros problemas menores encontrados nos arrays, e são eles:
 
-# Grandes problemas resolvidos
+## Grandes problemas resolvidos
 
 * Alocação dinâmica:
     * Com esta estrutura não há mais o problema de alocações estáticas, já que esta estrutura permite a alocação dinâmica de memória;
@@ -19,7 +19,7 @@ Uma das estruturas que foram implementadas para a solução dos problemas são a
 Até aqui vimos vantagens e desvantagens, porém não foi feita a definição do que são listas. Listas básicamente são estruturas que contém elementos colocados de forma sequêncial
 
 Exemplo:
-O vetor é uma lista, pois aloca os valores sequêncialmente um atrás do outro, físicamente.
+O array é uma lista, pois aloca os valores sequêncialmente um atrás do outro, físicamente.
 
 Mas não necessáriamente uma lista precisa estar um ao lado do outro, pode existir por exemplo, listas que tenham elementos em lugares distintos, porém vinculados por algum rótulo ou endereço, e essas são as listas encadeadas.
 
@@ -35,10 +35,11 @@ Bom, agora que foi entendido como funciona uma lista, vejamos como funciona uma 
 
 As operações básicas nas listas encadeadas são:
 
+* Busca (Utilizada em vários casos para adicionar e remover elementos);
 * Adição;
 * Remoção;
 * Exibição.
 
 # Códigos
 
-Os códigos de demonstração, estão alocados na pasta <code>src</code>
+Os códigos de demonstração, estão na pasta <code>src</code>

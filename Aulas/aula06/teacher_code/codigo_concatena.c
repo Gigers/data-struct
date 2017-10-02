@@ -1,6 +1,6 @@
 /*
 
-    Código mostrdo em aula pelo Professor
+    Código mostrado em aula pelo Professor
 
 */
 

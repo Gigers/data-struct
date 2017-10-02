@@ -5,7 +5,6 @@
 * Lista com cabeça:
     * Funções: Inserir, exibir e remover;
 
-
 # Grandes problemas resolvidos pela lista encadeada
 
 * Alocação dinâmica:

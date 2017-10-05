@@ -1,6 +1,9 @@
 /*
-    Problema do Josephus feito com a ajuda do Akira Kotsugai. Peguei o código dele e fui rescrevendo para entender
-    No final ficou igual, mas fiz para entender as operações nas listas circulares.
+INVERSÃO. Escreva uma função que inverta a ordem
+das células de uma lista encadeada (a primeira passa a
+ser a última, a segunda passa a ser a penúltima etc.).
+Faça isso sem criar novas células; apenas altera os
+ponteiros.
 */
 
 #include <stdio.h>
@@ -21,6 +24,26 @@ insere(CELULA * celula, int conteudo){
 }
 
 void
+inverte(CELULA * celula){
+
+    CELULA * atual, * proximo, * temp;
+    
+    atual = celula;
+    proximo = celula -> proximo;
+
+    while(proximo != NULL){
+        temp = proximo -> proximo;
+        proximo -> proximo = atual;
+
+        atual = proximo;
+        proximo = temp;
+    }
+
+    celula -> proximo -> proximo = NULL;
+    celula -> proximo = atual;
+}
+
+void
 exibe(CELULA * celula){
     CELULA * p = celula -> proximo;
 
@@ -31,61 +54,18 @@ exibe(CELULA * celula){
     printf("\n");
 }
 
-// Função para criar a lista circular
-void 
-criaCirculo(CELULA * celula){
-
-    CELULA * p = celula -> proximo;
-
-    while(p -> proximo != NULL)
-        p = p -> proximo;
-    
-    p -> proximo = celula -> proximo;
-}
-
-CELULA *
-percorreDeleta(int passos, CELULA * celula) {
-
-    CELULA * p, * lixo;
-    p = celula;
-
-    for(int i = 1; i < passos; i++)
-        p = p -> proximo;
-    
-        lixo = p -> proximo;
-        p -> proximo = lixo -> proximo;
-        
-        free(lixo);
-
-        return p -> proximo;
-}
-
-
-void
-criaSequencia(int soldados, CELULA * celula){
-
-    for(int i = soldados; i > 0; i--)
-         insere(celula, i);
-}
-
-void
-matar(int soldados, int passos, CELULA * celula){
-
-    CELULA * p = celula -> proximo;
-    criaSequencia(soldados, celula);
-    criaCirculo(celula);
-
-    for(int i = 1; i < soldados; i++){
-        p = percorreDeleta(passos, celula);
-        celula -> proximo = p;
-    }
-    printf("%d\n", celula -> proximo -> conteudo);
-}
-
 void
 main(void){
+
     CELULA * cabeca = malloc(sizeof(CELULA));
     cabeca -> proximo = NULL;
 
-    matar(50, 3, cabeca);
+    for(int i = 0; i < 10; i++)
+        insere(cabeca, i * 10);
+
+    printf("Antes de inverter\n");
+    exibe(cabeca);
+    printf("Depois de inverter\n");
+    inverte(cabeca);
+    exibe(cabeca);
 }

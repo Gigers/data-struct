@@ -8,13 +8,16 @@ Para seguir esta revisão utilize a seguinte ordem
 
 * 1° - Recursividade; [X]
 * 2° - O problema dos vetores em C; [X]
-* 3° - Listas encadeadas (Com cabeça); []
-* 4° - Listas encadeadas (Sem cabeça);
-* 5° - A solução com as listas em Python;
-* 6° - Filas;
-* 7° - Pilhas;
-* 8° - Quicksort (Conceitos);
-* 9° - Mergesort (Pseudo-código).
+* 3° - Listas encadeadas (Com cabeça); [X]
+* 4° - Listas encadeadas (Sem cabeça); [X]
+* 5° - A solução com as listas em Python; [X]
+* 6° - Pilhas; [X]
+* 7° - Filas; [X]
+* 8° - Algoritimos de busca;
+    * Inserção; [X]
+    * Método de seleção; [X]
+* 9° - Quicksort (Conceitos); [X]
+* 10° - Mergesort (Pseudo-código). [X]
 
 ### Recursividade
 

@@ -16,11 +16,10 @@ Todos os conteúdos serão apresentados apenas no formato prático, toda descri�
 
 Porém dos tópicos abaixo, serão abordados os conceitos também. Isso é feito pois essas são as matérias novas tratadas neste bimestre.
 
-- [ ] Árvore binária;
+- [X] Árvore binária;
 - [ ] Notação infixa;
 - [ ] Notação posfixa;
 - [ ] Grafos.
-
 
 ## Códigos
 

@@ -40,7 +40,11 @@ Nos grafos bipartidos as vértices do mesmo conjunto não podem ter ligação en
 
 1° - Separar aqueles que tem apenas uma ligação (Vértices de grau mínimo);
   
-
 #### Definições
 
 - K5 - Cinco vertices interligadas
+
+#### Exercícios 
+
+- E 1.1
+- E 1.2

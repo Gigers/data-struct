@@ -11,7 +11,7 @@ Uma das estruturas que foram implementadas para a solução dos problemas são a
     * Desta forma não é mais necessário adicionar uma quantidade X de elementos sem saber se eles realmente serão utilizados, isso porque a alocação é feita de acordo com a necessidade;
 
 * Desempenho:
-    * O desempenho para a adição e remoção em listas encadeadas é muito melhor que em Arrays, isso porque não é necessário percorrer toda a lista para a adição e nem para a remoção.
+    * O desempenho para a adição em listas encadeadas é muito melhor que em Arrays, isso porque não é necessário percorrer toda a lista para a adição.
     * A adição sempre é feita no início para evitar de percorrer toda a lista.
 
 # Lista

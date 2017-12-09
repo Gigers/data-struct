@@ -2,28 +2,38 @@
 
 ## Gráfos conexos
  
-Conexo - Não existe dois vertices e não tem caminho entre eles
-Não conexo - 
+Conexo - Um grafo G = (V, E) é conexo se existir um caminho entre qualquer de vértice;
+Não conexo - Não existe um caminho para um determinado vértice.
 
 Se um grafo é separado (Dois pedaços), seu complemento é conexo.
 
+## Ponte
+
+Ponte é uma aresta, não contida em um ciclo, que a exclusão, resulta no aumento de componentes do grafo.
+
 ## Florestas e árvores
 
-Gráfos sem circuito
+- Floresta é um gráfo sem circuito, podendo ser entendido como, é um grafo em que todas as suas arestas são pontes;
+- Árvore é uma floresta conexa.
 
-Exemplo de arvores
+OBS: Cada componente de uma floresta é uma árvore.
 
-* Árvore binária;
+Veja então que a diferença entre árvore e floresta é que, no caso das árvores, elas são conexas, o que não necessáriamente ocorre nas florestas, estas que podem ter vários elementos distintos (Não conexos).
+
+Exemplo de árvores
+
+* Árvore binária.
 
 ## Isomorfismo
 
-Para definir o isomorfismo é interessante definir nomes para as arestas
+Grafos são isomorficos se estes tem a mesma estrutura, ou seja, se tem a mesma quantidade de vértices, arestas e adjacência.
 
-É importante colocar os vértices!
+-Para definir o isomorfismo é interessante definir nomes para as arestas
 
-### Programa
+OBS: É importante colocar os vértices!
 
-* Sempre começar a aresta de menor grau;
+## Conjuntos estáveis
+
 * Algoritimo guloso;
 
 ## Cobertura
@@ -32,7 +42,7 @@ O número de vértices minimos aos quais está conectado a maior quantidade de a
 
 ## Emparelhamentos
 
-* Emparelhamento perfeito: Todos os vértices são englobados nos casamentos
+* Emparelhamento máximo: Todos os vértices são englobados nos casamentos
 
 ## Circuito hamiltoniano
 
@@ -43,8 +53,8 @@ O número de vértices minimos aos quais está conectado a maior quantidade de a
 
 ## Exercícios
 
-- E 2.7
-- E 5.22
+- E 2.7 [X]
+- E 5.22 [Algoritimo de demonstração]
 
 <!-- Pode cair na prova (Com certeza) -->
 <!-- Pulou cliques, cores>

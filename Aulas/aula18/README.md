@@ -34,22 +34,28 @@ OBS: É importante colocar os vértices!
 
 ## Conjuntos estáveis
 
+Um conjunto de vértices em um grafo é estável (independente) se seus elementos são dois a dois não adjacentes. Em outras palavras, se A e B são vértices quaisquer de um conjunto independente, não há arestas entre A e B.
+
 * Algoritimo guloso;
 
-## Cobertura
+## Cobertura por vértices
 
 O número de vértices minimos aos quais está conectado a maior quantidade de arestas
 
 ## Emparelhamentos
 
-* Emparelhamento máximo: Todos os vértices são englobados nos casamentos
+* Emparelhamento máximo: Todos os vértices são englobados nos casamentos (Contém o maior número possível de arestas);
+* Emparelhamento perfeito: É aquele em que cada vértice do grafo é incidente a exatamente uma aresta.
 
 ## Circuito hamiltoniano
 
-É aquele em que existe um ciclo que inclui todo vértice do grafo.
+É aquele em que existe um ciclo que ao ser percorrido inclui todo vértice do grafo.
 
 * **Circuito** tem que ser fechado
     * Aberto é caminho
+
+- E 17.1 [X]
+- E 17.3 [X]
 
 ## Exercícios
 

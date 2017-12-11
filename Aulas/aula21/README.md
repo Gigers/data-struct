@@ -30,14 +30,15 @@ Grafos são um conjunto de vértices e arestas
 * Bipartido
     * Desenhar;
     * Neste desenho é possível colocar as máquinas funcionando
-        * Para isso faça casamento máquina operário;
-            * Melhorar forma é usar as máquinas que são operadas por mais pessoas;
+        * Para isso faça casamento máquina operário:
+            * Melhorar as relações operário/máquina;
+                * Melhorar forma de fazer isso é usar as máquinas que são operadas por mais pessoas;
 * K5
     * Não é planar
 
 * Isomorfismo
     * Perguntar se eles são isomorfos 2 a 2;
-        * Para isso coloque nome nos vértices, te tal forma que gere as mesmas arestas;
+        * Para isso coloque nome nos vértices, de tal forma que gere as mesmas arestas;
 
 * Emparelhamento
     * Cai principalmente o emparelhamento máximo;

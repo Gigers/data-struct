@@ -57,7 +57,6 @@ Realizar a ordenação do seguinte elemento:
 
 n * log(n)2
 
-
 [7, 3, 0, 6, 4, 2, 5, 1]
 
 [7, 3, 0, 6] [4, 2, 5, 1]
@@ -130,7 +129,6 @@ Gera todas as subsequências dada uma sequência
 3 4
 3
 
-
 #### Permutação
 
 Gasto: n!
@@ -153,4 +151,5 @@ O princípio básico é o mesmo da busca binária.
 
 Porém a busca binária para ser aplicada a lista encadeada é necessário uma estrutura de dados que trabalhe com ponteiros. Neste caso árvore binária.
 
-EDR
+EDR (Pós-ordem)
+    * Esquerda-Direita-Raiz;

@@ -34,7 +34,6 @@ Há duas formas de fazer esse processo:
 
 # Algoritimos de busca
 
-
 * Algoritimos bons:
     * Algoritimos bons utilizam, n * log(base 2) n, isso porque a cada divisão (por 2), terei o log(base 2) de n.  
 

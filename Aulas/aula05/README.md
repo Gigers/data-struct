@@ -4,7 +4,7 @@
     * Vantagens:
         * Velocidade (Remoção e inserção);
 
-# Formas
+## Formas
 * Existem duas formas de implementar a lista encadeada:
      * Com cabeça;
         * Vantagem:
@@ -17,15 +17,15 @@
          * Complexo;
          * Menos eficiênte (Se comparado a lista com cabeça).
 
-# Códigos
+## Códigos
 
 Os códigos listados com números de exercícios, como por exemplo <code>Exe_18.c</code> fazem referência aos exercícios presentes no PDF que pode ser encontrado em <code>reference</code>.
 
-# Abstração
+## Abstração
 
 https://drive.google.com/open?id=0BwQVdunN4yJBeDZIbU1CaDR5djg
 
-# Questões
+## Questões
  * Porque os números são invertidos (No código lst_no_head.c) ?
     * R: Pois sempre vou inserir os elementos no início (Move os elementos para a direita)
 

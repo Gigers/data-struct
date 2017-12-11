@@ -13,7 +13,7 @@ OBS: Este algoritimo é mais rápido que Quick-sort, Merge-sort pois ele em méd
 
 ## Arvores binárias
 
-* Importante: Árvores binárias representa log(n)2.
+* Importante: Árvores binárias representam log(n)2 (Log de n na base 2).
 
 Árvores binárias são utilizadas principalmente para criar índices de banco de dados (SQL e NoSQL). Isso porque ele é bem rápido na pesquisa, mesmo com o crescimento  
 
@@ -26,7 +26,7 @@ R: A diferença está na velocidade, no caso dos vetores, quanto mais elementos,
 
 * 1° - Raiz-Esquerda-Direita (Pré-ordem);
 * 2° - Esquerda-Raiz-Direita (Em ordem);
-* 3° - Esquerda-Direita-Raiz ();
+* 3° - Esquerda-Direita-Raiz (Pós-ordem);
     * A + B * C
         * Faz a árvore e gera uma notação pós fixa
 

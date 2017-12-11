@@ -10,7 +10,7 @@ Criar os programas das seguintes recursões
 
 * Fatorial;
 * Fibonacci;
-* Soma de um número;
+* Soma dos digitos de um número;
 * MDC;
 * Potênciação.
 

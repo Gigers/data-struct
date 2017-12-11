@@ -11,6 +11,4 @@ def fib(n):
       dic[n] = fib(n - 1) + fib(n - 2)
     return dic[n]
     
-print (fib(8))
-
-
+print(fib(8))

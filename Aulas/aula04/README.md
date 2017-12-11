@@ -1,13 +1,13 @@
-Vetores em C
+## Vetores em C
 
- * São estaticos;
- * Os elementos são de apenas um tipo
- * Os algoritimos mais utilizadas em vetores estaticos são (Inserção e remocão)
- * Existe uma limitação nos vetores em C (Estáticos), as operações citadas acima, quando a frente de muitos elementos apresentam baixo desempenho. Para resolver isso, utiliza-se, ponteiros e endereços.
+ * São estáticos;
+ * Os elementos são de apenas um tipo;
+ * Os algoritimos mais utilizadas em vetores estaticos são (Inserção e remocão);
+ * Existe uma limitação nos vetores em C (Estáticos), as operações citadas acima, quando a frente de muitos elementos apresentam baixo desempenho. Para resolver isso, utiliza-se, ponteiros e endereços;
  * O problema de utilizar ponteiros e endereços em uma lista é que os números irão carregar o endereço e o valor próximo, este valor próximo representa um ponteiro para o próximo enderço;
- * Outro problema dos vetores é que são estaticos, para resolver isso utiliza-se lista ligada (Lista encadeada)
+ * Outro problema dos vetores é que são estaticos, para resolver isso utiliza-se lista ligada (Lista encadeada).
 
-Listas em Python
+## Listas em Python
 
  * São dinâmicas no tamanho;
  * Os elementos podem ser de tipos diferentes

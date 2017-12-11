@@ -13,7 +13,7 @@ Para seguir esta revisão utilize a seguinte ordem
 * 5° - A solução com as listas em Python; [X]
 * 6° - Pilhas; [X]
 * 7° - Filas; [X]
-* 8° - Algoritimos de busca;
+* 8° - Algoritimos de ordenação:
     * Inserção; [X]
     * Método de seleção; [X]
 * 9° - Quicksort (Conceitos); [X]

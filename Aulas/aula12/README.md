@@ -9,7 +9,7 @@
 * Divido até encontrar o X;
 * Algoritimo em log2(n)
 
-### Algoritimos ruins (n ^ )
+### Algoritimos ruins (n ^ 2)
 * Inserção:
     * Utiliza o lado esquerdo;
 * Seleção:

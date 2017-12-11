@@ -20,10 +20,7 @@ Este é um processo mais rápido que o processo de inserção e de comparação
     [6,7] [0, 4] [1,2] [3,5]
 5° - 0, 4 ,6 , 7
 
-
-
 6,3,0,7,5,1, 2, 4
-
 
 # Considerações que caem na prova
 
@@ -39,7 +36,7 @@ Para um programa ser bom deve se levar em consideração dois tópicos:
 * Espaço de memória utilizado
 
 * Considerações sobre o algoritimo Mergesort
-    * 1° - Muito mais rápido que os algoritimos de inserção e seleção (N/log(n) < n ^ 2)
+    * 1° - Muito mais rápido que os algoritimos de inserção e seleção (n * log(n) < n ^ 2)
     * 2° - Ocupa o dobro do espaço;
     * 3° - As metades são independentes, posso fazer em paralelo (Com threads, multiplos processadores)
 

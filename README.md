@@ -1,4 +1,6 @@
-# Estrututa de dados
+# Estrututa de dados (read-only)
+
+> O conteúdo deste repositório foi movido para o repositório [revisor](https://github.com/Gigers/revisor/tree/master/3_semestre/estrutura_de_dados).
 
 Estruturas de dados são formas otimizadas de armazenar e tratar os dados no meio eletrônico. Este é um campo da ciência da computação de extrema importância, isso porque como é sabido, o campo principal da ciência da computação é a informação.
 
